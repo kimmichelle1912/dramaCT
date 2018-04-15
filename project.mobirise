@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Drama Class",
-    "currentPage": "page4.html",
+    "currentPage": "Projects.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -18,7 +18,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 62,
+    "uniqCompNum": 66,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png"
   },
@@ -120,7 +120,10 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             "P": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "22px"
             }
           }
         },
@@ -196,7 +199,7 @@
         {
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": "2",
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -204,32 +207,20 @@
             "bgColor": "#3c3c3c",
             "overlay": true,
             "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "images/footer-logo.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "mobile",
-              "family": "MobiriseIcons",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "active": true
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
             }
           },
-          "text1": "<strong>Room</strong><br>B03, Drama Classroom",
-          "text2": "<strong>CONTACTS</strong><br>hengky.antonius@springfieldsch.id<br>vegas_chance@springfield.sch.id",
-          "text3": "<b>If you have any other questions regarding joining drama class, please contact Mr. Hengky and he will explain to you more about the class :)</b><ul class=\"mbr-contacts__list\"></ul>",
+          "text1": "<b>Room</b><br>B03, Drama Classroom<br><br>\n<strong>CONTACTS</strong><br>Email: hengky.antonius@springfield.sch.id&nbsp;<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><b>If you have any other questions regarding joining drama class, please contact Mr. Hengky and he will explain to you more about the class :)</b></p><p class=\"mbr-contacts__text\"><b><br></b></p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-g"
+          "_name": "contacts2",
+          "_anchor": "contacts2-1t"
         },
         {
           "_params": {
@@ -331,7 +322,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Performances",
-          "text": "Scroll below to see several showcases from our performances when we acted and when we helped to direct!",
+          "text": "<br>Scroll below to see several showcases from our performances when we acted and when we helped to direct!",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -341,7 +332,14 @@
           "_anchor": "header4-x",
           "_styles": {
             "P": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "23px"
+            },
+            "H1": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           }
         },
@@ -487,30 +485,6 @@
           "_anchor": "msg-box2-1b"
         },
         {
-          "_styles": {},
-          "_params": {
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "src": "images/slide3.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400
-            },
-            "video": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video2",
-          "_anchor": "video2-1m"
-        },
-        {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
             "autoplay": true,
@@ -532,7 +506,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "images/slide2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-8249-2000x1333.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -543,14 +517,47 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "images/slide3.jpg",
-                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/img-8327-2000x1333.jpg",
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
                 "title": "Slide 3",
                 "contentAlign": "center",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-8339-2000x1333.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-8344-2000x1333.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-8344-2000x1333.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
@@ -561,6 +568,31 @@
           ],
           "_name": "slider",
           "_anchor": "slider-1g"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "showText": false,
+            "bgColor": "#252525"
+          },
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_anchor": "video1-1q"
         },
         {
           "_inherit": "msg-box1",
@@ -612,7 +644,7 @@
             "bgColor": "#ffffff",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/img-20180305-wa0003-1280x960.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20180305-wa0003-1-1280x960.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -623,7 +655,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-20180305-wa0005-1280x719.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20180305-wa0005-1-1280x719.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -634,7 +666,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-20180303-wa0059-1280x960.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20180303-wa0059-1-1280x960.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
@@ -682,8 +714,8 @@
               "active": true
             }
           },
-          "text1": "<strong>Room</strong><br>B03, Drama Classroom",
-          "text2": "<strong>CONTACTS</strong><br>hengky.antonius@springfieldsch.id<br>vegas_chance@springfield.sch.id",
+          "text1": "<strong>Room</strong><br>B03, Drama Classroom<strong><br></strong><br><br>",
+          "text2": "<strong>CONTACTS</strong><br>Email: hengky.antonius@springfield.sch.id",
           "text3": "<b>If you have any other questions regarding joining drama class, please contact Mr. Hengky and he will explain to you more about the class :)</b><ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "Theme"
@@ -801,10 +833,14 @@
           "_anchor": "header4-r",
           "_styles": {
             "H1": {
-              "font-size": "48px"
+              "font-size": "48px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             "P": {
-              "font-size": "23px"
+              "font-size": "22px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           }
         },
@@ -820,7 +856,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/20180415-161151-2000x1125.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -833,16 +869,16 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-1815-2000x1333.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "title": "Directing",
                 "contentAlign": "right",
-                "text": "On drama class, we also learn how to direct a performance, even if th person might not even be from drama class.",
+                "text": "On drama class, we also learn how to direct a performance, even if the person might not even be from drama class.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlay": true,
-                "overlayOpacity": "0.3"
+                "overlayOpacity": "0.4"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-20171207-wa0040-1061x707.jpg",
@@ -920,8 +956,8 @@
               "active": true
             }
           },
-          "text1": "<strong>Room</strong><br>B03, Drama Classroom",
-          "text2": "<strong>CONTACTS</strong><br>hengky.antonius@springfieldsch.id<br>vegas_chance@springfield.sch.id",
+          "text1": "<strong>Room</strong><br>B03, Drama Classroom<strong><br></strong><br><br>",
+          "text2": "<strong>CONTACTS</strong><br>Email: hengky.antonius@springfield.sch.id",
           "text3": "<b>If you have any other questions regarding joining drama class, please contact Mr. Hengky and he will explain to you more about the class :)</b><ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "Theme"
@@ -1013,7 +1049,9 @@
             ".mbr-header .mbr-header__text": {
               "text-align": "center",
               "color": "#fff",
-              "font-size": "30px"
+              "font-size": "30px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".mbr-header .mbr-header__subtext": {
               "text-align": "center",
@@ -1024,7 +1062,10 @@
               "text-align": "center"
             },
             ".mbr-article P": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "19px"
             }
           },
           "_params": {
@@ -1310,8 +1351,8 @@
               "active": true
             }
           },
-          "text1": "<strong>Room</strong><br>B03, Drama Classroom",
-          "text2": "<strong>CONTACTS</strong><br>hengky.antonius@springfieldsch.id<br>vegas_chance@springfield.sch.id",
+          "text1": "<strong>Room</strong><br>B03, Drama Classroom<strong><br></strong><br><br>",
+          "text2": "<strong>CONTACTS</strong><br>Email: hengky.antonius@springfield.sch.id",
           "text3": "<b>If you have any other questions regarding joining drama class, please contact Mr. Hengky and he will explain to you more about the class :)</b><ul class=\"mbr-contacts__list\"></ul>",
           "_tags": [
             "Theme"

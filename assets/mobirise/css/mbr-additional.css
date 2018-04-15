@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
 
 #dropdown-menu-6 .hide-buttons [data-button] {
   display: none !important;
@@ -27,7 +29,11 @@
 }
 #header4-8 P {
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
 }
+
+
 #dropdown-menu-7 .hide-buttons [data-button] {
   display: none !important;
 }
@@ -50,6 +56,11 @@
 }
 #header4-x P {
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px;
+}
+#header4-x H1 {
+  font-family: 'Oswald', sans-serif;
 }
 #msg-box2-y .mbr-header .mbr-header__text {
   color: #252525;
@@ -72,6 +83,8 @@
 #msg-box2-15 .mbr-article {
   color: #252525;
 }
+
+
 #dropdown-menu-7 .hide-buttons [data-button] {
   display: none !important;
 }
@@ -94,10 +107,14 @@
 }
 #header4-r H1 {
   font-size: 48px;
+  font-family: 'Oswald', sans-serif;
 }
 #header4-r P {
-  font-size: 23px;
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
+
+
 #dropdown-menu-7 .hide-buttons [data-button] {
   display: none !important;
 }
@@ -122,6 +139,7 @@
   text-align: center;
   color: #fff;
   font-size: 30px;
+  font-family: 'Oswald', sans-serif;
 }
 #content5-q .mbr-header .mbr-header__subtext {
   text-align: center;
@@ -133,6 +151,8 @@
 }
 #content5-q .mbr-article P {
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
 }
 #msg-box4-n .mbr-header__text {
   color: #000000;
