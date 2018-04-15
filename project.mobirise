@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Drama Class",
-    "currentPage": "Projects.html",
+    "currentPage": "concepts.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -495,8 +495,8 @@
             "bgColor": "#ffffff",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/img-8226-1-2000x1333.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-8226-2-2000x1333.jpg",
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -551,7 +551,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-8344-2000x1333.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -855,8 +855,8 @@
             "bgColor": "#ffffff",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/20180415-161151-2000x1125.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/20180415-161152-2000x1125.jpg",
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -869,7 +869,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-1815-2000x1333.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
