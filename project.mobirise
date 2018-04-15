@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Drama Class",
-    "currentPage": "concepts.html",
+    "currentPage": "page4.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -18,7 +18,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 33,
+    "uniqCompNum": 62,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png"
   },
@@ -104,7 +104,7 @@
             "overlayOpacity": "0.6"
           },
           "title": "Hi! We are the Drama Class!",
-          "text": "Welcome to the home of students who make ideas and dreams into reality<br><br>Scroll below to here why you should join drama or click the links above to know more about us and what we do :)",
+          "text": "Welcome to the home of students who make ideas and dreams into reality<br><br>Browse around this website to find out why you should to know more about us, what we do and why you should join drama class :)",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -137,12 +137,61 @@
           "_anchor": "header3-d"
         },
         {
-          "text": "Drama is a real art&nbsp;",
+          "text": "<p>Drama is one of the elctive classes that you can four elective classs in springfield school. This website is about the people the G12 in Year 2017-2018 who take drama, and also about what they learnt in drama.</p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-e"
+          "_anchor": "content1-1l"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "To Join Drama Class, Please fill in the link below",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>",
+          "form": {
+            "action": "htsuki9@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1k"
         },
         {
           "_params": {
@@ -259,6 +308,350 @@
           ],
           "_name": "dropdown-menu",
           "_anchor": "dropdown-menu-7"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-20171207-wa0012-1280x622.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Performances",
+          "text": "Scroll below to see several showcases from our performances when we acted and when we helped to direct!",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-x",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525",
+              "font-size": "32px"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Christmas Production",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-y"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20171207-wa0031-1-1280x853.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20171207-wa0037-1280x853.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20171207-wa0038-1061x707.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20171207-wa0063-1061x707.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-1c"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525",
+              "font-size": "32px"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "G12 Performance",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-1b"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video2",
+          "_anchor": "video2-1m"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-8226-1-2000x1333.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "images/slide2.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "images/slide3.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-1g"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525",
+              "font-size": "32px"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Sound of Music",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-15"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": "1",
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20180305-wa0003-1280x960.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20180305-wa0005-1280x719.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20180303-wa0059-1280x960.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-1i"
         },
         {
           "_params": {
@@ -398,71 +791,105 @@
             "overlayOpacity": "0.5"
           },
           "title": "Concepts in Class",
-          "text": "Drama class is not only about acting on stage, but it is also about the process of getting to the stage. This includes but not limited to scriptwriting, directing, and also backstage work such as props and tech",
+          "text": "Drama class is not only about acting on stage, but it is also about the process of getting to the stage.<br><br>Scroll below to view what else we learn in drama!",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
           ],
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_name": "header4",
-          "_anchor": "header4-r"
+          "_anchor": "header4-r",
+          "_styles": {
+            "H1": {
+              "font-size": "48px"
+            },
+            "P": {
+              "font-size": "23px"
+            }
+          }
         },
         {
-          "_inherit": "slider",
-          "_afterNavbarItem": ".mbr-slider",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
             "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "showBullets": true,
+            "bgColor": "#ffffff",
             "slides": [
               {
-                "image": "images/slide1.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "title": "Concept 1",
-                "contentAlign": "right",
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "images/slide2.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "title": "Concept 2",
-                "contentAlign": "right",
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
-              },
-              {
-                "image": "images/slide3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20180415-161151-2000x1125.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
-                "title": "Concept 3",
+                "title": "Scriptwriting",
                 "contentAlign": "right",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "Without a script, we can't act. In drama, we learn about how to make a good script in a certain format for people to easily understand and memorise",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlay": true,
+                "overlayOpacity": "0.6"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1815-2000x1333.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Directing",
+                "contentAlign": "right",
+                "text": "On drama class, we also learn how to direct a performance, even if th person might not even be from drama class.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlay": true,
+                "overlayOpacity": "0.3"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20171207-wa0040-1061x707.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Acting",
+                "contentAlign": "right",
+                "text": "Whenever you hear drama its equivalent to acting and yes that is a part of drama class. In drama class you learn concepts related to acting such as blocking",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlay": true,
+                "overlayOpacity": "0.4"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/20180208-145716-2000x1125.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Backstage",
+                "contentAlign": "right",
+                "text": "In drama, we learn backstage work such as tech, props and also costumes. Those little details really help in making the performance better",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlay": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/1523733133379-1040x780.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Budgeting",
+                "contentAlign": "right",
+                "text": "To make a performance we need a budget. This is why drama students also learn how to fundraise and effectively allocate costs for the best performance&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlay": true,
+                "overlayOpacity": "0.5"
               }
             ]
           },
-          "articleLayout": true,
+          "articleLayout": false,
           "_tags": [
             "Theme"
           ],
-          "_name": "slider2",
-          "_anchor": "slider2-t",
-          "_styles": {
-            "P": {
-              "text-align": "right"
-            },
-            "H1": {
-              "text-align": "right"
-            }
-          }
+          "_name": "slider",
+          "_anchor": "slider-1f"
         },
         {
           "_params": {
@@ -609,7 +1036,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "images/bg3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-20180125-wa0006-2-1280x622.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -619,8 +1046,8 @@
             },
             "darkBackground": true,
             "overlay": true,
-            "overlayColor": "#28324e",
-            "overlayOpacity": 0.2
+            "overlayColor": "#222222",
+            "overlayOpacity": "0.4"
           },
           "title": "ABOUT US",
           "text": "<p>The G12 Drama Class Year 2017-2018 consist of 10 females and one male.</p><p>Scroll below to find out who we are, what we think about the class, and also about the only male in drama class, our teacher Mr. Hengky!</p>",
@@ -640,14 +1067,14 @@
             "showText": true,
             "showButtons": true,
             "inverse": false,
-            "imageSize": "44",
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "imageSize": "39",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#faaf40",
+            "bgColor": "#c1c1c1",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -661,7 +1088,10 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "images/iphone.png"
+              "src": "@PROJECT_PATH@/assets/images/mr-hengky-1080x1350.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "video": {
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
@@ -682,7 +1112,7 @@
           ],
           "_styles": {
             ".mbr-header__text": {
-              "color": "#4e3716"
+              "color": "#000000"
             },
             ".mbr-header__subtext": {
               "color": "#ffffff"
@@ -691,14 +1121,32 @@
               "color": "#ffffff"
             },
             ".mbr-article P": {
-              "color": "#503816"
+              "color": "#000000"
             }
           },
           "headerAlign": "left",
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://www.instagram.com/hengkyantonius/?hl=en\" data-toolbar=\"-mbrBtnMove\">Instagram</a> ",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://www.instagram.com/hengkyantonius/?hl=en\" data-toolbar=\"-mbrBtnMove\">Instagram</a> ",
           "_name": "msg-box4",
           "_anchor": "msg-box4-n"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "The Stars",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1p",
+          "_styles": {
+            "H3": {
+              "font-size": "32px",
+              "text-align": "center"
+            }
+          }
         },
         {
           "_params": {
@@ -707,56 +1155,61 @@
             "paddingBottom": 3,
             "noGutter": true,
             "showText": true,
-            "showBullets": false,
-            "bgColor": "#4c6972",
+            "showBullets": true,
+            "bgColor": "#ffffff",
             "images": [
               {
-                "image": "images/slide1.jpg",
-                "thumb": "images/slide1-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.51.14-pm-382x457.png",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.51.14-pm-382x457-382x286.png",
                 "alt": "",
                 "caption": "Allegra",
                 "active": false
               },
               {
-                "image": "images/slide2.jpg",
-                "thumb": "images/slide2-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/line-1512607442495-720x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-1512607442495-720x1280-719x539.jpg",
                 "alt": "",
-                "caption": "Callia Reyner"
+                "caption": "Callia Reyner",
+                "active": false
               },
               {
-                "image": "images/slide3.jpg",
-                "thumb": "images/slide3-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.50.16-pm-294x297.png",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.50.16-pm-294x297-294x220.png",
                 "alt": "",
-                "caption": "Felicia Natalie"
+                "caption": "Earleen Phelia",
+                "active": false
               },
               {
-                "image": "images/slide4.jpg",
-                "thumb": "images/slide4-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.46.56-pm-302x391.png",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.46.56-pm-302x391-302x226.png",
                 "alt": "",
-                "caption": "Earleen Phelia"
+                "caption": "Felicia Natalie",
+                "active": false
               },
               {
-                "image": "images/slide5.jpg",
-                "thumb": "images/slide5-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.52.05-pm-280x346.png",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.52.05-pm-280x346-279x209.png",
                 "alt": "",
-                "caption": "Jennifer Chance"
+                "caption": "Jennifer Chance",
+                "active": false
               },
               {
-                "image": "images/slide6.jpg",
-                "thumb": "images/slide6-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/27880453-2026627037560653-4373541240189222912-n-2-1080x1335.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/27880453-2026627037560653-4373541240189222912-n-2-1080x1335-668x501.jpg",
                 "alt": "",
-                "caption": "Nessa Fela"
+                "caption": "Nessa Fela",
+                "active": false
               },
               {
-                "image": "images/slide7.jpg",
-                "thumb": "images/slide7-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-5.16.21-pm-385x545.png",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-5.16.21-pm-385x545-385x288.png",
                 "alt": "",
                 "caption": "Ryssa Patricia",
                 "active": false
               },
               {
-                "image": "images/slide8.jpg",
-                "thumb": "images/slide8-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.31.41-pm-358x478.png",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-15-at-4.31.41-pm-358x478-352x264.png",
                 "alt": "",
                 "caption": "Samantha Ruth",
                 "active": true
@@ -768,7 +1221,7 @@
             "Theme"
           ],
           "_name": "gallery1",
-          "_anchor": "gallery1-j"
+          "_anchor": "gallery1-1o"
         },
         {
           "_params": {
