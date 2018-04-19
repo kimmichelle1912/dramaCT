@@ -912,69 +912,6 @@
           }
         },
         {
-          "_inherit": "msg-box1",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#252525"
-            },
-            ".mbr-article": {
-              "color": "#252525"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "paddingTop": "0",
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "What they do in class",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-1v"
-        },
-        {
-          "_styles": {},
-          "_params": {
-            "showText": true,
-            "bgColor": "#252525"
-          },
-          "media": {
-            "image": {
-              "src": "images/slide3.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400
-            },
-            "video": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            }
-          },
-          "text": "Cut down the development time with drag-and-drop website builder.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video1",
-          "_anchor": "video1-1u"
-        },
-        {
           "_params": {
             "paddingTop": 3,
             "paddingBottom": "2",
