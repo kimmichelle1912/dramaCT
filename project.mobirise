@@ -209,9 +209,10 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
             "googleMap": {
-              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
-              "address": "350 5th Ave, New York, NY 10118",
-              "state": "ok"
+              "address": "Springfield School PB3",
+              "placeId": "ChIJQQ_Zy5f3aS4RY_9ETp7VRW4",
+              "state": "ok",
+              "stateDetails": ""
             }
           },
           "text1": "<b>Room</b><br>B03, Drama Classroom<br><br>\n<strong>CONTACTS</strong><br>Email: hengky.antonius@springfield.sch.id&nbsp;<br>",
