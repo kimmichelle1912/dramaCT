@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Drama Class",
-    "currentPage": "Projects.html",
+    "currentPage": "concepts.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -18,7 +18,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 66,
+    "uniqCompNum": 69,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png"
   },
@@ -104,7 +104,7 @@
             "overlayOpacity": "0.6"
           },
           "title": "Hi! We are the Drama Class!",
-          "text": "Welcome to the home of students who make ideas and dreams into reality<br><br>Browse around this website to find out why you should to know more about us, what we do and why you should join drama class :)",
+          "text": "Welcome to the home of students who make ideas and dreams into reality<br><br>Browse around this website to find out more about us, what we do and why you should join drama class :)",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -140,7 +140,7 @@
           "_anchor": "header3-d"
         },
         {
-          "text": "<p>Drama is one of the elctive classes that you can four elective classs in springfield school. This website is about the people the G12 in Year 2017-2018 who take drama, and also about what they learnt in drama.</p>",
+          "text": "<p>Drama is one of the four elective classes that you can choose in springfield school. </p><p>In this class not only will you be learning how to act, but also how to make a production.</p><p>Browse around this page to see what drama class for G12 in Year 2017-2018 looks like</p>",
           "_tags": [
             "Theme"
           ],
@@ -342,6 +342,32 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           }
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "https://drive.google.com/file/d/0B6paKwSOYcEsUm5fUmtTaXN1RXc/view?usp=sharing",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "text": "G12 Performance Term 1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video2",
+          "_anchor": "video2-1w"
         },
         {
           "_inherit": "msg-box1",
@@ -546,31 +572,6 @@
           ],
           "_name": "slider",
           "_anchor": "slider-1g"
-        },
-        {
-          "_styles": {},
-          "_params": {
-            "showText": false,
-            "bgColor": "#252525"
-          },
-          "media": {
-            "image": {
-              "src": "images/slide3.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400
-            },
-            "video": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            }
-          },
-          "text": "Cut down the development time with drag-and-drop website builder.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video1",
-          "_anchor": "video1-1q"
         },
         {
           "_inherit": "msg-box1",
@@ -834,7 +835,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/20180415-161152-2000x1125.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -853,7 +854,7 @@
                 "showTitle": true,
                 "title": "Directing",
                 "contentAlign": "right",
-                "text": "On drama class, we also learn how to direct a performance, even if the person might not even be from drama class.",
+                "text": "On drama class, we also learn how to direct a performance, even if the person might not even be from drama class.<br><br>(A drama member directing students on a grade performance)",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlay": true,
                 "overlayOpacity": "0.4"
@@ -866,7 +867,7 @@
                 "showTitle": true,
                 "title": "Acting",
                 "contentAlign": "right",
-                "text": "Whenever you hear drama its equivalent to acting and yes that is a part of drama class. In drama class you learn concepts related to acting such as blocking",
+                "text": "Whenever you hear drama its equivalent to acting and yes that is a part of drama class. In drama class you learn concepts related to acting such as blocking<br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlay": true,
                 "overlayOpacity": "0.4"
@@ -879,19 +880,19 @@
                 "showTitle": true,
                 "title": "Backstage",
                 "contentAlign": "right",
-                "text": "In drama, we learn backstage work such as tech, props and also costumes. Those little details really help in making the performance better",
+                "text": "In drama, we learn backstage work such as tech, props and also costumes. Those little details really help in making the performance better<br><br>(Non-drama students learning from drama student)",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlay": true
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/1523733133379-1040x780.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "title": "Budgeting",
                 "contentAlign": "right",
-                "text": "To make a performance we need a budget. This is why drama students also learn how to fundraise and effectively allocate costs for the best performance&nbsp;",
+                "text": "To make a performance we need a budget. This is why drama students also learn how to fundraise and effectively allocate costs for the best performance<br><br>(Drama students picking up clothes for fundraising)&nbsp;",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlay": true,
                 "overlayOpacity": "0.5"
@@ -903,7 +904,75 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-1f"
+          "_anchor": "slider-1f",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "What they do in class",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-1v"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "showText": true,
+            "bgColor": "#252525"
+          },
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_anchor": "video1-1u"
         },
         {
           "_params": {
@@ -1291,7 +1360,7 @@
             {
               "authorName": "Nessa Fela",
               "authorBio": "G12 Drama Student",
-              "text": "\"Drama class is so much fun. We got to play characters that have different personalities and it helps us learn the moral in every performances. It also helps me achieve important life lessons that we might not learn in any other subjects. We learn team work, that can help us later on in life. Gain confidence in stage and off stage. Drama class teaches me the value of friendship and hard work. Mr Hengky also helps us overcome our trouble in stages and great teacher overall\""
+              "text": "\"Drama class is so much fun. We got to play characters that have different personalities and it helps us learn the moral in every performances. It also helps me achieve important life lessons that we might not learn in any other subjects. We learn team work, that can help us later on in life. Gain confidence in stage and off stage. Drama class teaches me the value of friendship and hard work. Mr Hengky also helps us overcome our trouble in the stage and he is a great teacher overall\""
             },
             {
               "authorName": "Callia Reyner",
